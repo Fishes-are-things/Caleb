@@ -12,12 +12,12 @@ GPIO.setup(12,GPIO.OUT)
 servo2 = GPIO.PWM(12,50) # pin 12 for servo2
 
 print("Wave maker starting")
+ # Start PWM running on both servos, value of 0 (pulse off)
+  servo1.start(0)
+  servo2.start(0)
 
 while True:
 
-  # Start PWM running on both servos, value of 0 (pulse off)
-  servo1.start(0)
-  servo2.start(0)
 
   servo2.ChangeDutyCycle(12)
   time.sleep(0.5)
