@@ -131,8 +131,8 @@ while True:
   servo2.ChangeDutyCycle(7)
   servo1.ChangeDutyCycle(7)
   time.sleep(5)
-  servo2.ChangeDutyCycle()
-  servo1.ChangeDutyCycle()
+  servo2.ChangeDutyCycle(7)
+  servo1.ChangeDutyCycle(7)
 
 
   time.sleep(2)
