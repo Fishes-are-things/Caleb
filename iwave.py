@@ -135,7 +135,7 @@ while True:
   servo1.ChangeDutyCycle(7)
 
 
-  time.sleep(2)
+  time.sleep(5)
   
 #Clean things up at the end
 servo1.stop()
