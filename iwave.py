@@ -50,7 +50,7 @@ while True:
 
   # Wait again for 2 seconds! :)
   time.sleep(0.5)
-    servo2.ChangeDutyCycle(2)
+  servo2.ChangeDutyCycle(2)
   servo1.ChangeDutyCycle(12)
   time.sleep(0.5)
   servo2.ChangeDutyCycle(12)
